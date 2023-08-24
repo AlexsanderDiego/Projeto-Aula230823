@@ -3,9 +3,10 @@ import Foto1 from './assets/Foto1.png'
 import Foto2 from './assets/Foto2.png'
 import Foto3 from './assets/Foto3.png'
 import Foto4 from './assets/Foto4.png'
+import Hora from './Hora';
 
 function App() {
-  
+
 
   return (
     <>
@@ -44,6 +45,9 @@ function App() {
             </div>
             <span className='Cor'>Tricolor</span>
           </div>
+        </div>
+        <div>
+          <Hora />
         </div>
       </div>
     </>
