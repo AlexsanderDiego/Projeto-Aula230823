@@ -1,0 +1,49 @@
+/* body {
+    background-image: url(assets/Foto1.png);
+    background-size: cover;
+
+} */
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 40px 0 50px;
+    height: 100vh;
+    background-image: url(assets/Foto1.png);
+    background-size: cover;
+}
+
+.Title {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.ContainerDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Img {
+    width: 250px;
+    height: 250px;
+    mix-blend-mode: multiply
+}
+
+.ContainerDescricao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Preco {
+    font-weight: bold;
+}
+
+.Camisa {
+    font-weight: 600;
+}
+
+.Cor {
+    color: rgb(106, 103, 104);
+}
